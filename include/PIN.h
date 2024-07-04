@@ -13,7 +13,7 @@ const unsigned int SS_PIN = 53; // 读卡器设置
 
 // from Doorbell.h
 const unsigned int BELL_PIN = 4; // 触摸传感器
-const unsigned int BEEP_PIN = 6; // 蜂鸣器
+const unsigned int BEEP_PIN = 2; // 蜂鸣器
 
 // from Flame.h
 const unsigned int flamePin = 6; // 烟雾报警器
@@ -26,9 +26,9 @@ const unsigned int RAIN_PIN = A1; // 雨滴传感器
 const unsigned int RECV_PIN = 3; // 红外传感器
 
 // from Light.h
-const unsigned int G_PIN = 13;
-const unsigned int R_PIN = 12;
-const unsigned int B_PIN = 11;
+const unsigned int G_PIN = 14;
+const unsigned int R_PIN = 13;
+const unsigned int B_PIN = 12;
 
 const unsigned int CLK_PIN = 7; // 定义 CLK 引脚
 const unsigned int DIO_PIN = 8; // 定义 DIO 引脚
